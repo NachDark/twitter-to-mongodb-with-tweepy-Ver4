@@ -11,10 +11,10 @@ import tweepy
 
 # The MongoDB connection info. This assumes your database name is TwitterStream, and your collection name is tweets.
 connection =  pymongo.MongoClient('localhost', 27017)
-db = connection.TwitterStream
+db = connection.TwitterStream  #youshould have a DB created with name TwitterStream
 
 
-collection = db.tweets
+collection = db.tweets      #youshould have a collection created with name tweets
 
 
 # Optional - Only grab tweets of specific language
