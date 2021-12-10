@@ -15,9 +15,11 @@ What gets stored in MongoDB?
 
 Dependencies:
 -------------
-  - Tweepy 4.0.0
-  - Pymongo
-  - MongoDB
+    (python -m pip install --upgrade pip)
+
+  - Tweepy 4.0.0(pip install tweepy)
+  - Pymongo( python -m pip install pymongo )
+  - MongoDB 
 
 5 minute setup (Assumes the dependencies are already installed):
 ------------------
