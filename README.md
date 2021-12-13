@@ -19,7 +19,7 @@ Dependencies:
 
   - Tweepy 4.0.0(pip install tweepy)
   - Pymongo( python -m pip install pymongo )
-  - MongoDB 
+  - MongoDB ( https://www.mongodb.com)
 
 5 minute setup (Assumes the dependencies are already installed):
 ------------------
